@@ -10,7 +10,7 @@ namespace Tyuiu.KhanikyanDK.Sprint1.Task2.V22.Test
             DataService ds = new DataService();
             int x = 1;
             int y = 7;
-            int z = 2;
+            int z = 2; 
             int res = ds.CalculateAVGValue(x, y, z);
             Assert.AreEqual(3, res);
         }

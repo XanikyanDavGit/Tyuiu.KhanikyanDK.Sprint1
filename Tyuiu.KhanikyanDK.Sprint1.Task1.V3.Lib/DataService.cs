@@ -8,4 +8,4 @@ namespace Tyuiu.KhanikyanDK.Sprint1.Task1.V3.Lib
             return (x - y) / (x + 3) + 3;
         }
     }
-}
+} 

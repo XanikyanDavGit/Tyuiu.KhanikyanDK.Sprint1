@@ -23,7 +23,7 @@ namespace Tyuiu.KhanikyanDK.Sprint1.Task2.V22
 
             DataService ds = new DataService();
 
-            int valueOne, valueTwo, valueThree;
+            int valueOne, valueTwo, valueThree; 
 
             Console.WriteLine("Введите первое число:");
             valueOne = Convert.ToInt32(Console.ReadLine());

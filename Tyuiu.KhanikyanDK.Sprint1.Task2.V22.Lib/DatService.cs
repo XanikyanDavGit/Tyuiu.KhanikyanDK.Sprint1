@@ -7,7 +7,7 @@ namespace Tyuiu.KhanikyanDK.Sprint1.Task2.V22.Lib
     {
         public int CalculateAVGValue(int value, int valueTwo, int valueThree)
         {
-            return (value + valueTwo + valueThree) / 3;
+            return (value + valueTwo + valueThree) / 3; 
         }
     }
 }

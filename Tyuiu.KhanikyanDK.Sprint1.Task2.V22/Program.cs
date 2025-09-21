@@ -40,7 +40,7 @@ namespace Tyuiu.KhanikyanDK.Sprint1.Task2.V22
 
             Console.WriteLine("среднее ариметическое: " + ds.CalculateAVGValue(valueOne, valueTwo, valueThree));
 
-            Console.ReadLine();
+            Console.ReadLine(); 
         }
     }
 }

@@ -9,11 +9,12 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.12.0" />
-    <PackageReference Include="MSTest" Version="3.6.4" />
+    <PackageReference Include="MSTest" Version="3.6.5" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Tyuiu.KhanikyanDK.Sprint1.Task4.V12.Lib\Tyuiu.KhanikyanDK.Sprint1.Task4.V12.Lib.csproj" />
+    <ProjectReference Include="..\Tyuiu.KhanikyanDK.Sprint1.Task5.V12.Lib\Tyuiu.KhanikyanDK.Sprint1.Task5.V12.Lib.csproj" />
   </ItemGroup>
 
   <ItemGroup>

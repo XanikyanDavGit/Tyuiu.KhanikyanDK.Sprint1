@@ -14,8 +14,9 @@ namespace Tyuiu.KhanikyanDK.Sprint1.Task3.V9
             Console.WriteLine("* Выполнил: Ханикян Давит Каренович | ИСТНб-25-1                          *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
-            Console.WriteLine("* Написать программу которая запрашивает у пользователя 3 числа и         *");
-            Console.WriteLine("* вычисляет среднее ариметическое и печатает результат на экране          *");
+            Console.WriteLine("* Написать программу пересчета величины временного интервала, заданного   *");
+            Console.WriteLine("* в минутах, в величину, выраженную в часах и минутах. Ответ округлите до *");
+            Console.WriteLine("* 3 знаков после запятой                                                  *");
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
@@ -25,14 +26,14 @@ namespace Tyuiu.KhanikyanDK.Sprint1.Task3.V9
 
 
             Console.WriteLine("Введите временной интервал (в минутах)");
-            int minutes = int.Parse(Console.ReadLine());
+            int minutes = int.Parse(Console.ReadLine() ?? "0");
+            int h = minutes / 60;
+            int m = minutes % 60;
 
-            Console.WriteLine("***************************************");
-            Console.WriteLine("* РЕЗУЛЬТАТ:                           *");
-            Console.WriteLine("***************************************");
-            Console.WriteLine($"{minutes} минут = {ds.ConvertMinutesToHours(minutes)}");
-
-            Console.ReadLine();
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
+            Console.WriteLine("***************************************+++++++++++++++++++++++++++++++++*+*");
+            Console.WriteLine($"{minutes} минут = {h}ч. {m}мин.");
 
             Console.ReadLine();
         }

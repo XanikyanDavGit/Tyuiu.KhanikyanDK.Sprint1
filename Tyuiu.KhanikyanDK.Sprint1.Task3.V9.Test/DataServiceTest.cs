@@ -5,11 +5,12 @@ namespace Tyuiu.KhanikyanDK.Sprint1.Task3.V9.Test
     public sealed class DataServiceTest
     {
         [TestMethod]
-        public void ValidExpression(int minutes)
+        public void ValidExpression()
         {
             DataService ds = new DataService();
-            float res = ds.ConvertMinutesToHours(minutes);
-            Assert.AreEqual(1.333, res);
+            int minutes = 80;
+            double res = ds.ConvertMinutesToHours(minutes);
+            Assert.AreEqual(1, res);
         }
     }
 }

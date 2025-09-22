@@ -21,7 +21,7 @@ namespace Tyuiu.KhanikyanDK.Sprint1.Task4.V12
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
-
+             
             DataService ds = new DataService();
 
 
